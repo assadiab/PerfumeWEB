@@ -1,0 +1,93 @@
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion – Essence by Nature</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+  <link href="../styles/styles_globaux.css" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles_connexion.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="../scripts/script.js" defer></script>
+</head>
+
+  <body>
+     <!-- En-tête commun -->
+     <header>
+       <div style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: bold; color: #3a2d1a;">
+         <a href="landing_page.html" style="text-decoration: none; color: inherit;">Essence</a>
+       </div>
+       <nav>
+         <a href="landing_page.html#histoire">Découvrir</a>
+         <a href="services.html#services">Services</a>
+         <a href="landing_page.html#temoignages">Témoignages</a>
+         <a href="landing_page.html#contact">Contact</a>
+       </nav>
+       <div class="header-icons">
+         <a href="connexion.html" class="login-wrapper">
+           <img src="../images/user.svg" alt="Utilisateur" class="user-icon">
+           <span class="login-text">Se connecter</span>
+         </a>
+         <a href="about.html" class="about-wrapper">
+           <img src="../images/info.svg" alt="À propos" class="about-icon">
+           <span class="about-text">À propos</span>
+         </a>
+         <div class="search-container">
+           <img src="../images/search-.svg" alt="Recherche" class="search-icon">
+           <input type="text" class="search-input" placeholder="Rechercher...">
+         </div>
+       </div>
+     </header>
+
+  <main class="main-content">
+    <div class="auth-wrapper">
+      <div class="auth-container">
+        <h1>Connexion</h1>
+        <form>
+          <input type="email" placeholder="Adresse email" required>
+          <input type="password" placeholder="Mot de passe" required>
+          <button type="submit">Se connecter</button>
+        </form>
+        <div class="links">
+          <a href="#">Mot de passe oublié ?</a>
+        </div>
+      </div>
+
+      <div class="auth-container">
+        <h1>Inscription</h1>
+        <form>
+          <input type="text" placeholder="Nom" required>
+          <input type="text" placeholder="Prénom" required>
+          <input type="email" placeholder="Adresse email" required>
+          <input type="password" placeholder="Mot de passe" required>
+          <button type="submit">Créer un compte</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!--Footer Commun-->
+  <footer style="background: #1d120f; color: #EAE0D5; padding: 60px 20px; display: flex; flex-wrap: wrap; justify-content: space-around; text-align: left;">
+    <div style="max-width: 300px;">
+      <h2 style="font-family: 'Playfair Display', serif;">Essence</h2>
+      <p>Luxury Defined. One Drop at a Time.</p>
+      <p>&copy; 2025 Essence - Tous droits réservés.</p>
+    </div>
+    <div style="max-width: 300px;">
+      <h3>Horaires</h3>
+      <p>Lundi - Vendredi : 10h00 - 23h00<br>Samedi : 10h00 - 19h00</p>
+      <div style="margin-top: 25px; display: flex; gap: 15px;">
+        <a href="#"><img src="../images/facebook.png" alt="Facebook" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;"></a>
+        <a href="#"><img src="../images/instagram.png" alt="Instagram" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;"></a>
+        <a href="#"><img src="../images/twitter.png" alt="X" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;"></a>
+        <a href="#"><img src="../images/pinterest.png" alt="Pinterest" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;"></a>
+      </div>
+    </div>
+    <div style="max-width: 300px;">
+      <h3>Contacts</h3>
+      <p>Tél : 09 34 67 09 10</p>
+      <p>Email : info@essence.com</p>
+      <p>Adresse : 145 Rue du Parfum, Paris, France</p>
+    </div>
+  </footer>
+</body>
+</html>

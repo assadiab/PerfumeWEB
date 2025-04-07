@@ -1,0 +1,97 @@
+/* Styles pour le contenu principal */
+.main-content {
+    padding-top: 140px;
+    padding-bottom: 60px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 60px;
+  }
+  
+  .intro-text {
+    font-style: italic;
+    max-width: 700px;
+    margin: 0 auto 60px;
+    font-size: 1.2rem;
+  }
+  
+  /* Styles pour les sections des fondateurs */
+  .founder-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
+  
+  .founder-section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .founder-text {
+    flex: 1 1 500px;
+    padding: 20px;
+  }
+  
+  .founder-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .founder-text p {
+    font-size: 1.1rem;
+    color: #5a4431;
+  }
+  
+  .founder-photo {
+    flex: 1 1 400px;
+    text-align: center;
+  }
+  
+  .founder-photo img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Styles pour les icônes des fondatrices */
+  .fondatrice-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .fondatrice-icons a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #eaeaea;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+  }
+  
+  .fondatrice-icons a:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .fondatrice-icons img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Styles réactifs pour les écrans plus petits */
+  @media (max-width: 768px) {
+    .founder-section {
+      flex-direction: column !important;
+      text-align: center;
+    }
+  }
+  
