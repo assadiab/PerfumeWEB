@@ -1,6 +1,6 @@
 # Essence by Nature
 
- [Visitez le site Essence](../pages/landing_page.html)
+[Visitez le site Essence](pages/landing_page.html)
 
 Ce projet vise à développer un site web pour **Essence**, une entreprise fictive spécialisée dans la création de parfums uniques et personnalisés.
 
@@ -18,27 +18,71 @@ Ce projet vise à développer un site web pour **Essence**, une entreprise ficti
 - **HTML5** : Structure du site web.
 - **CSS3** : Mise en page et style.
 - **JavaScript** : Fonctionnalités dynamiques et interactions.
-- **Swiper** : Pour les carrousels interactifs.
-- **GSAP** : Pour les animations fluides.
+- **Swiper.js** : Carrousel interactif utilisé dans certaines sections.
+- **GSAP (GreenSock Animation Platform)** : Pour les animations fluides (scroll, transitions...).
+
+## Structure des Dossiers
+
+```bash
+ProjetWeb/
+├── images/           # Toutes les images du site
+├── pages/            # Les pages HTML : accueil, services, à propos, etc.
+├── scripts/          # JavaScript (ex: script.js)
+├── styles/           # Fichiers CSS (globaux et par page)
+└── README.md
+```
 
 ## Installation
 
-1. **Cloner le Dépôt** : Téléchargez ou clonez ce dépôt sur votre machine locale.
-2. **Structure des Dossiers** :
-   - `images/` : Contient toutes les images utilisées dans le site.
-   - `pages/` : Contient les fichiers HTML des différentes pages du site (e.g., `about.html`, `connexion.html`, `landing_page.html`, `services.html`).
-   - `scripts/` : Contient les fichiers JavaScript pour les fonctionnalités dynamiques (e.g., `script.js`).
-   - `styles/` : Contient les fichiers CSS pour le style du site (e.g., `styles_about.css`, `styles_connexion.css`, `styles_globaux.css`, `styles_landing.css`, `styles_services.css`).
-3. **Ouvrir le Projet** : Ouvrez le fichier `landing_page.html` dans votre navigateur pour voir le site en action.
+1. **Cloner le Dépôt** :
+   ```bash
+   git clone <lien-du-repo>
+   ```
+2. **Ouvrir le Projet** :
+   Ouvrez `pages/landing_page.html` dans votre navigateur.
 
 ## Utilisation
 
-- **Navigation** : Utilisez le menu de navigation en haut de la page pour explorer les différentes sections du site.
-- **Formulaire de Contact** : Remplissez le formulaire pour envoyer un message à l'entreprise. Assurez-vous de remplir tous les champs correctement pour éviter les erreurs.
-- **Galerie Dynamique** : La galerie à côté du formulaire de contact se met à jour automatiquement toutes les 10 secondes.
-- **Bannière de Cookies** : Personnalisez vos préférences de cookies en utilisant les options fournies.
+- Utilisez la navigation en haut de page pour explorer le site.
+- La galerie dynamique (en bas de la page d'accueil) change automatiquement toutes les 10 secondes.
+- Le formulaire de contact est actif côté front-end (pas de backend).
+- La bannière de cookies permet de gérer vos préférences.
 
-## Vérification et Validation
+## Ressources
 
-- **W3C Validation** : Le site a été vérifié pour être conforme aux standards du W3C.
-- **Responsive Design** : Le site est conçu pour être réactif et fonctionne bien sur différents appareils, y compris les téléphones et les tablettes.
+### Images
+
+Toutes les images utilisées dans ce projet proviennent de **[Unsplash](https://unsplash.com)**, une banque d’images libres de droits.  
+Voici quelques auteurs à créditer :
+
+- Annie Spratt
+- Bundo Kim
+- Emily Wang
+- Fulvio Ciccolo
+- Karolina Grabowska
+- Karly Jones
+- Jei Lee
+- Swapnil Dwivedi
+
+Les images sont utilisées pour :
+- Les sections illustrées de la landing page
+- La galerie dynamique en bas de la page d’accueil
+- Les cartes de services
+- Les profils des fondatrices
+
+### JavaScript Tiers
+
+Ce projet utilise des bibliothèques JavaScript externes non développées par l’équipe :
+
+- **Swiper.js** – Pour le carrousel d’avis clients  
+  📌 https://swiperjs.com/
+
+- **GSAP (GreenSock)** – Pour les animations de scroll et transitions  
+  📌 https://greensock.com/gsap/
+
+Ces bibliothèques sont utilisées côté front uniquement.
+
+## Validation
+
+- ✅ **HTML/CSS** validés via [W3C Validator](https://validator.w3.org/)
+- 📱 **Responsive** : fonctionne sur mobile, tablette et desktop
