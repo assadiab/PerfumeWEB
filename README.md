@@ -6,7 +6,7 @@ Ce projet vise à développer un site web pour **Essence**, une entreprise ficti
 
 ## Fonctionnalités
 
-- **Page d'Accueil** : Présentation de l'entreprise avec une section héro, des informations sur l'histoire, et des témoignages clients.
+- **Page d'Accueil** : Présentation de l'entreprise avec une section héro, des informations sur l'histoire, et des témoignages clients.   
 - **Services** : Détails des services offerts, y compris la création personnalisée de parfums et des ateliers olfactifs.
 - **À Propos** : Informations sur les fondatrices et leur vision.
 - **Formulaire de Contact** : Permet aux utilisateurs de contacter l'entreprise.
