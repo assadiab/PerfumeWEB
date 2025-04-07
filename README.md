@@ -30,6 +30,7 @@ ProjetWeb/
 ├── pages/            # Les pages HTML : accueil, services, à propos, etc.
 ├── scripts/          # JavaScript (ex: script.js)
 ├── styles/           # Fichiers CSS (globaux et par page)
+├── index/           
 └── README.md
 ```
 
@@ -37,7 +38,7 @@ ProjetWeb/
 
 1. **Cloner le Dépôt** :
    ```bash
-   git clone <lien-du-repo>
+   git clone <https://github.com/assadiab/PerfumeWEB>
    ```
 2. **Ouvrir le Projet** :
    Ouvrez `pages/landing_page.html` dans votre navigateur.
