@@ -1,6 +1,6 @@
 # Essence by Nature
 
- [Visitez le site Essence](landing_page.html)
+ [Visitez le site Essence](../pages/landing_page.html)
 
 Ce projet vise à développer un site web pour **Essence**, une entreprise fictive spécialisée dans la création de parfums uniques et personnalisés.
 
